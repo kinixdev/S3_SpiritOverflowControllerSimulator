@@ -23,7 +23,7 @@ public class SendOSC : MonoBehaviour
     const string addressPower = "/char/power";
     const string addressResistance = "/wahoo/resistance";
 
-    string ip = "127.0.0.1";
+    string ip = "255.255.255.255";
     int player = 1;
     int portPlayer1 = 9611;
     int portPlayer2 = 9621;
